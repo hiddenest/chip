@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App-header {
+  margin-bottom: 200px;
+}
+
+.chip,
+.input-wrapper input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #EEE;
+}
+
+.chip:hover {
+  background-color: #EEE;
+}
+
+.chip span, .chip div {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.input-wrapper span,
+.input-wrapper input {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.input-wrapper input {
+  font-size: 10pt;
+}
+
+.chip.already {
+  border-color: purple;
+}
+
+.chip.invalid {
+  border-color: red;
+}
